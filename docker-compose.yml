@@ -1,0 +1,6 @@
+services:
+  ratings:
+    build: .
+    image: details
+    ports:
+      - "6969:8080"
